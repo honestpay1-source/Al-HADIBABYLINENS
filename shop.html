@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alhadilinens Luxury Store</title>
+<link rel="stylesheet" href="advanced-style.css">
+</head>
+<body>
+
+<header>
+    <h1 class="logo">Alhadilinens Baby Trust</h1>
+    <div class="cart-icon">
+        🛒 Cart (<span id="cart-count">0</span>)
+    </div>
+</header>
+
+<div class="offer-bar">
+    <marquee>🔥 20% OFF On All Baby Collections – Limited Time Offer 🔥</marquee>
+</div>
+
+<section class="collections">
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('winter')">Winter Collection</button>
+    <button onclick="filterProducts('summer')">Summer Collection</button>
+</section>
+
+<section class="product-container" id="product-container">
+</section>
+
+<section class="cart-section">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <button onclick="sendWhatsAppOrder()">Order on WhatsApp</button>
+</section>
+
+<footer>
+    <p>📞 03190833295 | 📧 alhadilinens@gmail.com</p>
+</footer>
+
+<script src="advanced-script.js"></script>
+</body>
+</html>
